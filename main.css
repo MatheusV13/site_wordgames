@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo-site {
+    width: 80px; 
+    height: auto; 
+    display: block; 
+    margin-right: 10px; 
+}
+
+
+header{
+    padding: 16px;
+    background-color:#182c61 ;
+    color:#ecf0f1 ;
+    display: flex;
+}
+
+
+header nav li{
+    display: inline ;
+    margin-left: 16px;
+    font-size:  18px;
+}
+
+header nav li a{
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+    section .container{
+        align-items: flex-start;
+    }
+
+
+#contato .container{
+    display: block;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img{
+    height: 24px;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.contato #container{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+.social-links li{
+    display: inline;
+}
+
+.social-links li a{
+    text-decoration:none ;
+}
+
+.banner-news {
+    display: flex; 
+    align-items: flex-start; 
+    margin-bottom: 20px; 
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.banner-news img {
+    width: 500px; 
+    height: auto;
+    margin-right: 15px; 
+    border-radius: 5px; 
+}
